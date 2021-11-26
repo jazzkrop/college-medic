@@ -1,0 +1,16 @@
+import {{ name }}sList from '../../../../domains/{{ name }}/components/{{ name }}sList'
+import { use{{ name }}Actions } from '../../../../domains/{{ name }}/hooks'
+
+const {{ name }}s = () => {
+const { redirectToCreate } = use{{ name }}Actions()
+  return (
+    <div>
+      <h1>
+        {{ name }}s all <button onClick={redirectToCreate}>Create</button>
+      </h1>
+      <{{ name }}sList />
+    </div>
+  )
+}
+
+export default {{ name }}s

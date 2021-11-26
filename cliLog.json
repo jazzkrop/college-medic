@@ -1,0 +1,1699 @@
+{
+  "path": "./src",
+  "name": "src",
+  "type": "folder",
+  "children": [
+    {
+      "path": "./src/App.js",
+      "name": "App.js",
+      "type": "file"
+    },
+    {
+      "path": "./src/components",
+      "name": "components",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./src/components/GroupSimpleForm",
+          "name": "GroupSimpleForm",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/components/GroupSimpleForm/GroupSimpleForm.js",
+              "name": "GroupSimpleForm.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/components/GroupSimpleForm/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/components/GroupSimpleView",
+          "name": "GroupSimpleView",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/components/GroupSimpleView/GroupSimpleView.js",
+              "name": "GroupSimpleView.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/components/GroupSimpleView/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/components/GroupsList",
+          "name": "GroupsList",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/components/GroupsList/GroupsList.js",
+              "name": "GroupsList.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/components/GroupsList/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/components/index.js",
+          "name": "index.js",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "path": "./src/contexts",
+      "name": "contexts",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./src/contexts/QStore",
+          "name": "QStore",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/contexts/QStore/QStoreContext.js",
+              "name": "QStoreContext.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/QStore/QStoreProvider.js",
+              "name": "QStoreProvider.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/QStore/hooks",
+              "name": "hooks",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/contexts/QStore/hooks/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/QStore/hooks/useCreateQStore.js",
+                  "name": "useCreateQStore.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/QStore/hooks/useQStore.js",
+                  "name": "useQStore.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/contexts/QStore/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/contexts/Session",
+          "name": "Session",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/contexts/Session/SessionContext.js",
+              "name": "SessionContext.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/Session/SessionProvider.js",
+              "name": "SessionProvider.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/Session/index.js",
+              "name": "index.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/Session/useSession.js",
+              "name": "useSession.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/contexts/Store",
+          "name": "Store",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/contexts/Store/StoreContext.js",
+              "name": "StoreContext.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/Store/StoreProvider.js",
+              "name": "StoreProvider.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/Store/__constants__",
+              "name": "__constants__",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/contexts/Store/__constants__/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/__constants__/recordTypes.js",
+                  "name": "recordTypes.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/contexts/Store/hooks",
+              "name": "hooks",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/contexts/Store/hooks/Form",
+                  "name": "Form",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/contexts/Store/hooks/Form/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/contexts/Store/hooks/Form/useAdvancedForm.js",
+                      "name": "useAdvancedForm.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/contexts/Store/hooks/Form/useInitializeForm.js",
+                      "name": "useInitializeForm.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/contexts/Store/hooks/Form/useIsDirtyModel.js",
+                      "name": "useIsDirtyModel.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/contexts/Store/hooks/Form/useOnFormValuesChange.js",
+                      "name": "useOnFormValuesChange.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/contexts/Store/hooks/Form/useRollbackChanges.js",
+                      "name": "useRollbackChanges.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/contexts/Store/hooks/Form/useStoreForm.js",
+                      "name": "useStoreForm.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/contexts/Store/hooks/Form/useTransformModelToState.js",
+                      "name": "useTransformModelToState.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useAddRecord.js",
+                  "name": "useAddRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useDefaultActions.js",
+                  "name": "useDefaultActions.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useDestroyDirty.js",
+                  "name": "useDestroyDirty.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useDestroyRecord.js",
+                  "name": "useDestroyRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useFetchRecord.js",
+                  "name": "useFetchRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useFetchRecords.js",
+                  "name": "useFetchRecords.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useFilterRecords.js",
+                  "name": "useFilterRecords.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useFindRecord.js",
+                  "name": "useFindRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useGetDirtyAttributes.js",
+                  "name": "useGetDirtyAttributes.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useGetId.js",
+                  "name": "useGetId.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useRecordData.js",
+                  "name": "useRecordData.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useRemoveRecord.js",
+                  "name": "useRemoveRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useRollbackAttributes.js",
+                  "name": "useRollbackAttributes.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useSaveRecord.js",
+                  "name": "useSaveRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useStore.js",
+                  "name": "useStore.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/hooks/useUpdateRecord.js",
+                  "name": "useUpdateRecord.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/contexts/Store/index.js",
+              "name": "index.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/Store/reducer",
+              "name": "reducer",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/contexts/Store/reducer/createRecord.js",
+                  "name": "createRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/reducer/destroyDirty.js",
+                  "name": "destroyDirty.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/reducer/filterRecords.js",
+                  "name": "filterRecords.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/reducer/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/reducer/reducer.js",
+                  "name": "reducer.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/reducer/removeCollection.js",
+                  "name": "removeCollection.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/reducer/removeRecord.js",
+                  "name": "removeRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/reducer/updateCollection.js",
+                  "name": "updateCollection.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/Store/reducer/updateRecord.js",
+                  "name": "updateRecord.js",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "./src/contexts/StoreOld",
+          "name": "StoreOld",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/contexts/StoreOld/StoreContext.js",
+              "name": "StoreContext.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/StoreOld/StoreProvider.js",
+              "name": "StoreProvider.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/StoreOld/hooks",
+              "name": "hooks",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/contexts/StoreOld/hooks/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useAddRecord.js",
+                  "name": "useAddRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useCreateRecord.js",
+                  "name": "useCreateRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useDestroyRecord.js",
+                  "name": "useDestroyRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useFetchRecord.js",
+                  "name": "useFetchRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useFetchRecords.js",
+                  "name": "useFetchRecords.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useFilterRecords.js",
+                  "name": "useFilterRecords.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useFindRecord.js",
+                  "name": "useFindRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useGetId.js",
+                  "name": "useGetId.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useModel.js",
+                  "name": "useModel.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useQueryRecords.js",
+                  "name": "useQueryRecords.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useRemoveRecord.js",
+                  "name": "useRemoveRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useSaveRecord.js",
+                  "name": "useSaveRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/hooks/useUpdateRecord.js",
+                  "name": "useUpdateRecord.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/contexts/StoreOld/index.js",
+              "name": "index.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/contexts/StoreOld/reducer",
+              "name": "reducer",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/contexts/StoreOld/reducer/addRecord.js",
+                  "name": "addRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/reducer/createRecord.js",
+                  "name": "createRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/reducer/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/reducer/removeRecord.js",
+                  "name": "removeRecord.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/reducer/storeReducer.js",
+                  "name": "storeReducer.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/reducer/updateCollection.js",
+                  "name": "updateCollection.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/contexts/StoreOld/reducer/updateRecord.js",
+                  "name": "updateRecord.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/contexts/StoreOld/useStore.js",
+              "name": "useStore.js",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "./src/domains",
+      "name": "domains",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./src/domains/Group",
+          "name": "Group",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/domains/Group/hooks",
+              "name": "hooks",
+              "type": "folder",
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "./src/domains/RequiredAction",
+          "name": "RequiredAction",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/domains/RequiredAction/components",
+              "name": "components",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/domains/RequiredAction/components/RequiredActionSimpleForm",
+                  "name": "RequiredActionSimpleForm",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/domains/RequiredAction/components/RequiredActionSimpleForm/RequiredActionSimpleForm.js",
+                      "name": "RequiredActionSimpleForm.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/domains/RequiredAction/components/RequiredActionSimpleForm/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/domains/RequiredAction/components/RequiredActionSimpleView",
+                  "name": "RequiredActionSimpleView",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/domains/RequiredAction/components/RequiredActionSimpleView/RequiredActionSimpleView.js",
+                      "name": "RequiredActionSimpleView.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/domains/RequiredAction/components/RequiredActionSimpleView/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/domains/RequiredAction/components/RequiredActionsList",
+                  "name": "RequiredActionsList",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/domains/RequiredAction/components/RequiredActionsList/RequiredActionsList.js",
+                      "name": "RequiredActionsList.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/domains/RequiredAction/components/RequiredActionsList/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/domains/RequiredAction/components/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/domains/RequiredAction/hooks",
+              "name": "hooks",
+              "type": "folder",
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "./src/domains/User",
+          "name": "User",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/domains/User/components",
+              "name": "components",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/domains/User/components/UserSimpleForm",
+                  "name": "UserSimpleForm",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/domains/User/components/UserSimpleForm/UserSimpleForm.js",
+                      "name": "UserSimpleForm.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/domains/User/components/UserSimpleForm/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/domains/User/components/UserSimpleView",
+                  "name": "UserSimpleView",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/domains/User/components/UserSimpleView/UserSimpleView.js",
+                      "name": "UserSimpleView.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/domains/User/components/UserSimpleView/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/domains/User/components/UsersList",
+                  "name": "UsersList",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/domains/User/components/UsersList/UsersList.js",
+                      "name": "UsersList.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/domains/User/components/UsersList/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/domains/User/components/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/domains/User/hooks",
+              "name": "hooks",
+              "type": "folder",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "./src/hooks",
+      "name": "hooks",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./src/hooks/index.js",
+          "name": "index.js",
+          "type": "file"
+        },
+        {
+          "path": "./src/hooks/useOnComponentDidMount.js",
+          "name": "useOnComponentDidMount.js",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "path": "./src/images",
+      "name": "images",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./src/images/geometry.png",
+          "name": "geometry.png",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "path": "./src/index.js",
+      "name": "index.js",
+      "type": "file"
+    },
+    {
+      "path": "./src/models",
+      "name": "models",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./src/models/User.js",
+          "name": "User.js",
+          "type": "file"
+        },
+        {
+          "path": "./src/models/address.js",
+          "name": "address.js",
+          "type": "file"
+        },
+        {
+          "path": "./src/models/city.js",
+          "name": "city.js",
+          "type": "file"
+        },
+        {
+          "path": "./src/models/country.js",
+          "name": "country.js",
+          "type": "file"
+        },
+        {
+          "path": "./src/models/index.js",
+          "name": "index.js",
+          "type": "file"
+        },
+        {
+          "path": "./src/models/interest.js",
+          "name": "interest.js",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "path": "./src/pages",
+      "name": "pages",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./src/pages/App",
+          "name": "App",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/pages/App/App.js",
+              "name": "App.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/App/Dashboard",
+              "name": "Dashboard",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/pages/App/Dashboard/Dashboard.js",
+                  "name": "Dashboard.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/pages/App/Dashboard/Settings",
+                  "name": "Settings",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/pages/App/Dashboard/Settings/Appearance.js",
+                      "name": "Appearance.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/pages/App/Dashboard/Settings/Languages.js",
+                      "name": "Languages.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/pages/App/Dashboard/Settings/Settings.js",
+                      "name": "Settings.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/pages/App/Dashboard/Settings/Storage.js",
+                      "name": "Storage.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/pages/App/Dashboard/Users",
+                  "name": "Users",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/pages/App/Dashboard/Users/All.js",
+                      "name": "All.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/pages/App/Dashboard/Users/Create.js",
+                      "name": "Create.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/pages/App/Dashboard/Users/Edit.js",
+                      "name": "Edit.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/pages/App/Dashboard/Users/Show.js",
+                      "name": "Show.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/pages/App/Dashboard/Users/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "./src/pages/App/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/pages/Auth",
+          "name": "Auth",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/pages/Auth/Auth.js",
+              "name": "Auth.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/Auth/ForgotPassword.js",
+              "name": "ForgotPassword.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/Auth/Login.js",
+              "name": "Login.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/Auth/Signup.js",
+              "name": "Signup.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/Auth/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/pages/Navigator.js",
+          "name": "Navigator.js",
+          "type": "file"
+        },
+        {
+          "path": "./src/pages/RoutesRedirect.js",
+          "name": "RoutesRedirect.js",
+          "type": "file"
+        },
+        {
+          "path": "./src/pages/Service",
+          "name": "Service",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/pages/Service/AccessDenied.js",
+              "name": "AccessDenied.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/Service/GDPR.js",
+              "name": "GDPR.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/Service/NotFound.js",
+              "name": "NotFound.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/Service/Service.js",
+              "name": "Service.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/Service/TermsAndConditions.js",
+              "name": "TermsAndConditions.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/pages/Service/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/pages/paths.js",
+          "name": "paths.js",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "path": "./src/services",
+      "name": "services",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./src/services/QStoreGCP",
+          "name": "QStoreGCP",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/services/QStoreGCP/QStoreGCPContext.js",
+              "name": "QStoreGCPContext.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/QStoreGCP/QStoreGCPProvider.js",
+              "name": "QStoreGCPProvider.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/QStoreGCP/hooks",
+              "name": "hooks",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/QStoreGCP/hooks/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/QStoreGCP/hooks/useCreateDoc.js",
+                  "name": "useCreateDoc.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/QStoreGCP/hooks/useQStoreGCP.js",
+                  "name": "useQStoreGCP.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/QStoreGCP/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/services/firebase",
+          "name": "firebase",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/services/firebase/app.js",
+              "name": "app.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/firebase/firestoreService.js",
+              "name": "firestoreService.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/firebase/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/services/gcp",
+          "name": "gcp",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/services/gcp/app",
+              "name": "app",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/gcp/app/app.js",
+                  "name": "app.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/gcp/app/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/gcp/auth",
+              "name": "auth",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/gcp/auth/auth.js",
+                  "name": "auth.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/gcp/auth/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/gcp/context",
+              "name": "context",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/gcp/context/GCPContext.js",
+                  "name": "GCPContext.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/gcp/context/GCPProvider.js",
+                  "name": "GCPProvider.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/gcp/context/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/gcp/context/useGCP.js",
+                  "name": "useGCP.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/gcp/database",
+              "name": "database",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/gcp/database/database.js",
+                  "name": "database.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/gcp/database/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/gcp/firestore",
+              "name": "firestore",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/gcp/firestore/firestore.js",
+                  "name": "firestore.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/gcp/firestore/hooks",
+                  "name": "hooks",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/services/gcp/firestore/hooks/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/gcp/firestore/hooks/useCreateDoc.js",
+                      "name": "useCreateDoc.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/gcp/firestore/hooks/useDeleteDoc.js",
+                      "name": "useDeleteDoc.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/gcp/firestore/hooks/useGetDoc.js",
+                      "name": "useGetDoc.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/gcp/firestore/hooks/useGetId.js",
+                      "name": "useGetId.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/gcp/firestore/hooks/useGetTimestamp.js",
+                      "name": "useGetTimestamp.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/gcp/firestore/hooks/useQueryDocs.js",
+                      "name": "useQueryDocs.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/gcp/firestore/hooks/useUpdateDoc.js",
+                      "name": "useUpdateDoc.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/services/gcp/firestore/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/gcp/index.js",
+              "name": "index.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/services/localStorage",
+          "name": "localStorage",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/services/localStorage/index.js",
+              "name": "index.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/localStorage/localStorageService.js",
+              "name": "localStorageService.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/services/model",
+          "name": "model",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/services/model/__constants__",
+              "name": "__constants__",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/model/__constants__/dataTypes.js",
+                  "name": "dataTypes.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/model/__constants__/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/model/attr.js",
+              "name": "attr.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/model/belongsTo.js",
+              "name": "belongsTo.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/model/getCollectionPath.js",
+              "name": "getCollectionPath.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/model/getDefaultValues.js",
+              "name": "getDefaultValues.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/model/getNewId.js",
+              "name": "getNewId.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/model/getValidationRules.js",
+              "name": "getValidationRules.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/model/hasMany.js",
+              "name": "hasMany.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/model/index.js",
+              "name": "index.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/model/model.js",
+              "name": "model.js",
+              "type": "file"
+            },
+            {
+              "path": "./src/services/model/oneOf.js",
+              "name": "oneOf.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "path": "./src/services/qonsoll-data",
+          "name": "qonsoll-data",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./src/services/qonsoll-data/Adapters",
+              "name": "Adapters",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/qonsoll-data/Adapters/createDatabaseAdapter",
+                  "name": "createDatabaseAdapter",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/services/qonsoll-data/Adapters/createDatabaseAdapter/createDatabaseAdapter.js",
+                      "name": "createDatabaseAdapter.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Adapters/createDatabaseAdapter/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Adapters/createFirestoreAdapter",
+                  "name": "createFirestoreAdapter",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/services/qonsoll-data/Adapters/createFirestoreAdapter/createFirestoreAdapter.js",
+                      "name": "createFirestoreAdapter.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Adapters/createFirestoreAdapter/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Adapters/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/qonsoll-data/LocalStorage",
+              "name": "LocalStorage",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/qonsoll-data/LocalStorage/LocalStorage.js",
+                  "name": "LocalStorage.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/LocalStorage/createLocalStorage.js",
+                  "name": "createLocalStorage.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/LocalStorage/hooks",
+                  "name": "hooks",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/services/qonsoll-data/LocalStorage/hooks/useListenLocalStorage",
+                      "name": "useListenLocalStorage",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "./src/services/qonsoll-data/LocalStorage/hooks/useListenLocalStorage/index.js",
+                          "name": "index.js",
+                          "type": "file"
+                        },
+                        {
+                          "path": "./src/services/qonsoll-data/LocalStorage/hooks/useListenLocalStorage/useListenLocalStorage.js",
+                          "name": "useListenLocalStorage.js",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/LocalStorage/hooks/useSelect",
+                      "name": "useSelect",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "./src/services/qonsoll-data/LocalStorage/hooks/useSelect/index.js",
+                          "name": "index.js",
+                          "type": "file"
+                        },
+                        {
+                          "path": "./src/services/qonsoll-data/LocalStorage/hooks/useSelect/useSelector.js",
+                          "name": "useSelector.js",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/LocalStorage/hooks/useSelector",
+                      "name": "useSelector",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "./src/services/qonsoll-data/LocalStorage/hooks/useSelector/index.js",
+                          "name": "index.js",
+                          "type": "file"
+                        },
+                        {
+                          "path": "./src/services/qonsoll-data/LocalStorage/hooks/useSelector/useSelector.js",
+                          "name": "useSelector.js",
+                          "type": "file"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/services/qonsoll-data/LocalStorage/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/LocalStorage/validate.js",
+                  "name": "validate.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/qonsoll-data/Model",
+              "name": "Model",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/qonsoll-data/Model/__constants__",
+                  "name": "__constants__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/services/qonsoll-data/Model/__constants__/dataTypes.js",
+                      "name": "dataTypes.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Model/__constants__/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/attr.js",
+                  "name": "attr.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/belongsTo.js",
+                  "name": "belongsTo.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/getCollectionPath.js",
+                  "name": "getCollectionPath.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/getDefaultValues.js",
+                  "name": "getDefaultValues.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/getNewId.js",
+                  "name": "getNewId.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/getValidationRules.js",
+                  "name": "getValidationRules.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/hasMany.js",
+                  "name": "hasMany.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/model.js",
+                  "name": "model.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Model/oneOf.js",
+                  "name": "oneOf.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/qonsoll-data/RuntimeStorage",
+              "name": "RuntimeStorage",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/qonsoll-data/RuntimeStorage/RuntimeStorage.js",
+                  "name": "RuntimeStorage.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/RuntimeStorage/contexts",
+                  "name": "contexts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/services/qonsoll-data/RuntimeStorage/contexts/RuntimeStorageContext.js",
+                      "name": "RuntimeStorageContext.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/RuntimeStorage/contexts/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/services/qonsoll-data/RuntimeStorage/createRuntimeStorage.js",
+                  "name": "createRuntimeStorage.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/RuntimeStorage/hooks",
+                  "name": "hooks",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/useListenRuntimeStorage",
+                      "name": "useListenRuntimeStorage",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/useListenRuntimeStorage/index.js",
+                          "name": "index.js",
+                          "type": "file"
+                        },
+                        {
+                          "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/useListenRuntimeStorage/useListenRuntimeStorage.js",
+                          "name": "useListenRuntimeStorage.js",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/useRuntimeStorage",
+                      "name": "useRuntimeStorage",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/useRuntimeStorage/index.js",
+                          "name": "index.js",
+                          "type": "file"
+                        },
+                        {
+                          "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/useRuntimeStorage/useRuntimeStorage.js",
+                          "name": "useRuntimeStorage.js",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/useSelector",
+                      "name": "useSelector",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/useSelector/index.js",
+                          "name": "index.js",
+                          "type": "file"
+                        },
+                        {
+                          "path": "./src/services/qonsoll-data/RuntimeStorage/hooks/useSelector/useSelector.js",
+                          "name": "useSelector.js",
+                          "type": "file"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/services/qonsoll-data/RuntimeStorage/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/RuntimeStorage/providers",
+                  "name": "providers",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/services/qonsoll-data/RuntimeStorage/providers/RuntimeStorageProvider.js",
+                      "name": "RuntimeStorageProvider.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/RuntimeStorage/providers/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/services/qonsoll-data/RuntimeStorage/validate.js",
+                  "name": "validate.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "path": "./src/services/qonsoll-data/Store",
+              "name": "Store",
+              "type": "folder",
+              "children": [
+                {
+                  "path": "./src/services/qonsoll-data/Store/StoreContext.js",
+                  "name": "StoreContext.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Store/StoreProvider.js",
+                  "name": "StoreProvider.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Store/hooks",
+                  "name": "hooks",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/index.js",
+                      "name": "index.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/useFetchAll.js",
+                      "name": "useFetchAll.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/useFetchRecord.js",
+                      "name": "useFetchRecord.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/useFilter.js",
+                      "name": "useFilter.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/useFindAll.js",
+                      "name": "useFindAll.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/useFindRecord.js",
+                      "name": "useFindRecord.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/useMutations.js",
+                      "name": "useMutations.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/usePeekAll.js",
+                      "name": "usePeekAll.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/usePeekRecord.js",
+                      "name": "usePeekRecord.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/useQueries.js",
+                      "name": "useQueries.js",
+                      "type": "file"
+                    },
+                    {
+                      "path": "./src/services/qonsoll-data/Store/hooks/useQuery.js",
+                      "name": "useQuery.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Store/index.js",
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "path": "./src/services/qonsoll-data/Store/useStore.js",
+                  "name": "useStore.js",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "./src/styles.css",
+      "name": "styles.css",
+      "type": "file"
+    }
+  ]
+}

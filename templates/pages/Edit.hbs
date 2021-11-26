@@ -1,0 +1,14 @@
+import { useParams } from 'react-router-dom'
+import { {{name}}SimpleForm } from 'domains/{{name}}/components'
+
+const Edit = () => {
+  const { id } = useParams()
+  return (
+    <div>
+      <h1>Edit {{name}}</h1>
+      <{{name}}SimpleForm id={id} />
+    </div>
+  )
+}
+
+export default Edit
