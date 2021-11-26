@@ -1,0 +1,8 @@
+body {
+  background: url("./images/geometry.png") repeat center center fixed;
+  background-size: 400px;
+}
+
+.App {
+  font-family: sans-serif;
+}
