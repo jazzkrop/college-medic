@@ -2,50 +2,45 @@ import { Container, Input, Row, Title, Col } from '@qonsoll/react-design'
 import { Button, DatePicker, Form, Select, message } from 'antd'
 import { useStore } from '../../../../contexts/Store'
 import { useUserActions } from '../../hooks'
+import useOnComponentDidMount from '../../../../hooks/useOnComponentDidMount'
+import { useComponentWillMount } from '../../../../hooks'
+import { ContactsOutlined } from '@ant-design/icons'
 
 const { Option } = Select
 
-const UserSimpleForm = ({ id, title, onValuesChange }) => {
-  const { useGetId, findRecord, addRecord, saveRecord } = useStore()
+const UserSimpleForm = ({ id, title }) => {
+  const {
+    store,
+    useGetId,
+    fetchRecords,
+    fetchRecord,
+    findRecord,
+    addRecord,
+    saveRecord
+  } = useStore()
+  useComponentWillMount(() => {
+    fetchRecord({ collectionPath: 'users' })
+    fetchRecords({ collectionPath: 'groups' })
+  })
   const [form] = Form.useForm()
   const { redirectToAll } = useUserActions()
 
   const newId = useGetId('users')
   const recordId = id || newId
   const userData = { collectionPath: 'users', id: recordId }
-
-  const groups = {
-    2: {
-      id: '2',
-      name: 'PI-182',
-      curator: '100',
-      students: ['3', '4']
-    },
-    1: {
-      id: '1',
-      name: 'PI-181',
-      curator: '100',
-      students: ['5', '6']
-    },
-    3: {
-      id: '3',
-      name: 'AT-181',
-      curator: '100',
-      students: ['5', '6']
-    }
-  }
-  const groupsArr = Object.values(groups)
+  const initialValues = findRecord(userData)
+  console.log(initialValues)
+  const groupsArr = store['ordered']['groups'] || []
 
   const onSubmit = () => {
     saveRecord(userData)
-    console.log('redirectTOall')
     redirectToAll()
   }
   return (
     <Form
       form={form}
       onFinish={onSubmit}
-      initialValues={findRecord(userData)}
+      initialValues={initialValues}
       onValuesChange={(changedValues, allValues) => {
         addRecord({
           collectionPath: 'users',
@@ -100,7 +95,7 @@ const UserSimpleForm = ({ id, title, onValuesChange }) => {
           </Col>
           <Col>
             <Form.Item label="group" name="group">
-              <Select defaultValue="" style={{ width: 120 }}>
+              <Select style={{ width: 120 }}>
                 {groupsArr.map((group) => {
                   return <Option value={group.id}>{group.name}</Option>
                 })}
@@ -113,7 +108,7 @@ const UserSimpleForm = ({ id, title, onValuesChange }) => {
               name="gender"
               label="Your gender:"
             >
-              <Select defaultValue="" style={{ width: 120 }}>
+              <Select style={{ width: 120 }}>
                 <Option value="man">Man</Option>
                 <Option value="female">Female</Option>
               </Select>
@@ -127,7 +122,7 @@ const UserSimpleForm = ({ id, title, onValuesChange }) => {
               name="role"
               label="Your role:"
             >
-              <Select defaultValue="" style={{ width: 120 }}>
+              <Select style={{ width: 120 }}>
                 <Option value="student">Student</Option>
                 <Option value="curator">Curator</Option>
                 <Option value="nurse">Nurse</Option>
@@ -136,7 +131,7 @@ const UserSimpleForm = ({ id, title, onValuesChange }) => {
           </Col>
           <Col>
             <Form.Item name="course" label="Your course:">
-              <Select defaultValue="" style={{ width: 120 }}>
+              <Select style={{ width: 120 }}>
                 <Option value="1">1</Option>
                 <Option value="2">2</Option>
                 <Option value="3">3</Option>
@@ -146,7 +141,7 @@ const UserSimpleForm = ({ id, title, onValuesChange }) => {
           </Col>
           <Col>
             <Form.Item name="fieldOfStudy" label="Your field of study:">
-              <Select defaultValue="" style={{ width: 200 }}>
+              <Select style={{ width: 200 }}>
                 <Option value="software-engineering">
                   Software engineering
                 </Option>

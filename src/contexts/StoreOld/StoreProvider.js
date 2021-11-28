@@ -24,7 +24,7 @@ const StoreProvider = ({ children }) => {
     return store[modelPluralized][id]
   }
 
-  console.log('store ->', store)
+  console.log('store old ->', store)
 
   return (
     <StoreContext.Provider

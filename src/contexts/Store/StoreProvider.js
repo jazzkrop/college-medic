@@ -63,7 +63,7 @@ const StoreProvider = ({ children, models }) => {
   // Remove all records added to dirty remove from the DB
   const destroyDirty = useDestroyDirty(dispatch)
 
-  console.log('store ->', store)
+  console.log('store new ->', store)
 
   return (
     <StoreContext.Provider

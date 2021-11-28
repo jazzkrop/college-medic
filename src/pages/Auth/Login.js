@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
-import { useSession } from "../../contexts/Session";
-import { app } from "../../services/firebase";
-import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { doc, setDoc, getDoc, getFirestore } from "firebase/firestore";
-import { useHistory } from "react-router-dom";
+import { Link } from 'react-router-dom'
+import { useSession } from '../../contexts/Session'
+import { app } from '../../services/firebase'
+import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
+import { doc, setDoc, getDoc, getFirestore } from 'firebase/firestore'
+import { useHistory } from 'react-router-dom'
 
-const auth = getAuth(app);
-const provider = new GoogleAuthProvider();
-const db = getFirestore(app);
+const auth = getAuth(app)
+const provider = new GoogleAuthProvider()
+const db = getFirestore(app)
 // signInWithPopup(auth, provider)
 //   .then((result) => {
 //     // This gives you a Google Access Token. You can use it to access the Google API.
@@ -19,6 +19,7 @@ const db = getFirestore(app);
 //   })
 //   .catch((error) => {
 //     // Handle Errors here.
+
 //     const errorCode = error.code;
 //     const errorMessage = error.message;
 //     // The email of the user's account used.
@@ -29,24 +30,25 @@ const db = getFirestore(app);
 //   });
 
 const Login = () => {
-  // const { login } = useSession()
-  const history = useHistory();
+  const history = useHistory()
 
   const login = async () => {
-    const result = await signInWithPopup(auth, provider);
-    const user = result.user;
-    const userRef = doc(db, "users", user.uid);
-    const userSnapshot = await getDoc(userRef);
+    const result = await signInWithPopup(auth, provider)
+    const user = result.user
+    const userRef = doc(db, 'users', user.uid)
+    const userSnapshot = await getDoc(userRef)
     if (!userSnapshot.exists()) {
-      await setDoc(doc(db, "users", user.uid), {
-        name: user.displayName || null,
-        photoURL: user.photoURL || null,
-      });
-      history.push(`/users/${user.uid}`);
+      await setDoc(doc(db, 'users', user.uid), {
+        id: user.uid,
+        firstName: user.displayName || null,
+        avatarUrl: user.photoURL || null
+      })
+      
+      history.push(`/users/${user.uid}/edit`)
     } else {
-      history.push(`/dashboard`);
+      history.push(`/users/${user.uid}/edit`)
     }
-  };
+  }
 
   return (
     <div>
@@ -61,7 +63,7 @@ const Login = () => {
         <Link to="/auth/forgot-password">Forgot password?</Link>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Login;
+export default Login

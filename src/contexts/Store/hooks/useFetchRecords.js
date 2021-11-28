@@ -7,8 +7,9 @@ const { queryDocuments } = firestoreService
 
 const useFetchRecords = (dispatch) => {
   const fetchRecords = async ({ collectionPath }) => {
-    console.log(collectionPath)
+  
     const records = await queryDocuments(collectionPath)
+    console.log('fetch rec-s', collectionPath)
     dispatch({
       type: 'updateCollection',
       payload: { type: ORDERED, collectionPath, records }
